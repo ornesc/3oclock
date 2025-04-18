@@ -10,6 +10,7 @@ on:
     - cron: '55 8 * * *'   # KST 17:55
     - cron: '55 11 * * *'  # KST 20:55
     - cron: '55 14 * * *'  # KST 23:55
+  workflow_dispatch:
 
 jobs:
   message:
