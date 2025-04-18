@@ -2,14 +2,14 @@ name: 결계 알림봇
 
 on:
   schedule: 
-    - cron: '55 17 * * *'  # KST 02:55
-    - cron: '55 20 * * *'  # KST 05:55
-    - cron: '55 23 * * *'  # KST 08:55
-    - cron: '55 2 * * *'   # KST 11:55
-    - cron: '55 5 * * *'   # KST 14:55
-    - cron: '55 8 * * *'   # KST 17:55
-    - cron: '55 11 * * *'  # KST 20:55
-    - cron: '55 14 * * *'  # KST 23:55
+    - cron: '50 17 * * *'  # KST 02:55
+    - cron: '50 20 * * *'  # KST 05:55
+    - cron: '50 23 * * *'  # KST 08:55
+    - cron: '50 2 * * *'   # KST 11:55
+    - cron: '50 5 * * *'   # KST 14:55
+    - cron: '50 8 * * *'   # KST 17:55
+    - cron: '50 11 * * *'  # KST 20:55
+    - cron: '50 14 * * *'  # KST 23:55
   workflow_dispatch:
 
 jobs:
